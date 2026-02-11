@@ -14,6 +14,17 @@ github url:
 
 ## Commands
 
+### Open
+When I say "Open":
+- `open ~/My_Code/ClankerCode/GCAPortfolioSite/index.html`
+
+### New Assignment
+When I say "Start [AssignmentName]":
+
+1. Create a folder called `[AssignmentName]` in the root
+2. Create a starter `index.html` inside it
+3. Tell me the folder is ready
+
 ### Deploy
 When I say "Deploy":
 
@@ -32,11 +43,11 @@ When I say "Deploy":
 Open `[github url]` in a browser to view the site.
 
 ## Coding Standards
-- Keep HTML, CSS, and JS in single files when possible
+- Keep HTML, CSS, and JS in separate files when possible
 - Use semantic HTML elements
 - Mobile-responsive design
 
 ## File Naming
 - Main file: `index.html`
-- Assets: lowercase, hyphens (e.g., `particle-system.js`)
-- Assignment folders: Descriptive names or `Assignment-XX`
+- Assets: lowercase, hyphens (e.g., `charity-water-landing-page.js`)
+- Assignment folders: Descriptive names
