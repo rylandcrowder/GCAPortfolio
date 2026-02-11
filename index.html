@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GCA Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            color: #fff;
+        }
+
+        header {
+            padding: 2rem;
+            text-align: center;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .subtitle {
+            color: #a0a0a0;
+            font-size: 1.1rem;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+
+        .intro {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .intro p {
+            font-size: 1.2rem;
+            color: #c0c0c0;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .project-card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            padding: 2rem;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .project-card h3 {
+            margin-bottom: 1rem;
+            color: #4fc3f7;
+        }
+
+        .project-card p {
+            color: #a0a0a0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #606060;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>GCA Portfolio</h1>
+        <p class="subtitle">Welcome to my work</p>
+    </header>
+
+    <main>
+        <section class="intro">
+            <p>A collection of projects and creative work.</p>
+        </section>
+
+        <section class="projects">
+            <div class="project-card">
+                <h3>Project One</h3>
+                <p>Description of your first project goes here.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Project Two</h3>
+                <p>Description of your second project goes here.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Project Three</h3>
+                <p>Description of your third project goes here.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 GCA Portfolio</p>
+    </footer>
+</body>
+</html>
