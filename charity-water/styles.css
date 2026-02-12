@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-family: 'Avenir', 'Avenir Next', sans-serif;
     min-height: 100vh;
 }
 
@@ -138,4 +138,52 @@ h1 {
         width: 100%;
         text-align: center;
     }
+}
+
+/* Donate Page */
+.donate-page {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #fff7e1 0%, #e0f4ff 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.donate-content {
+    text-align: center;
+    padding: 40px;
+}
+
+.water-drop {
+    font-size: 80px;
+    display: block;
+    margin-bottom: 20px;
+    animation: bounce 2s ease-in-out infinite;
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
+
+.donate-page h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.donate-page p {
+    font-size: 20px;
+    color: #003366;
+    margin-bottom: 30px;
+}
+
+.back-link {
+    color: #003366;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.back-link:hover {
+    color: #ffc907;
 }
